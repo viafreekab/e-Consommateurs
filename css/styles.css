@@ -112,12 +112,12 @@ body
 #titresite 
  {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 45px;
+	font-size: 37px;
 	font-weight: bold;
 	position:absolute;
 	left:44px;
 	top:22px;
-	width:370px;
+	width:360px;
 	height:57px;
 	text-shadow: 10px 10px 15px #000000;
 	color:#FF0000;
