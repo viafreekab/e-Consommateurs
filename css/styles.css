@@ -1,0 +1,131 @@
+/* CSS Document */
+abbr,article,aside,audio,canvas,datalist,details,figure,dialog,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video {
+	display:compact;
+	background-image: none;
+}
+
+html{
+	height:100%;
+	background-image: url(../background.png);
+	background-repeat: repeat-x;
+	position: absolute;
+	background-color: #0099FF;
+}
+
+{ margin:0px;
+}
+body
+	{
+	background-color: -webkit-gradient;
+	background-image: none;
+	background-position: 0% 0%;
+	}
+	
+#contenu
+{
+	position: absolute;
+	left: 441px;
+	top: 369px;
+	width: 949px;
+	height: 405px;
+	z-index: 4;
+	overflow: hidden;
+	background-color: #00FFFF;
+	background-image: none;
+}
+
+#panel {
+	width:300px;
+	list-style:none;
+	padding-top:200px;
+	display:compact;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-right: auto;
+	padding-right: -3px;
+
+}
+
+#panel li {
+	border-radius:3px 3px 3px 3px;
+	margin-top:5px;
+	width:150px;
+	background: #000000;
+	background: -moz-linear-gradient(top, #161616 0%, #000000 100%);
+	background: -webkit-linear-gradient(top, #161616 0%,#000000 100%);
+	background: -o-linear-gradient(top, #161616 0%,#000000 100%);
+	border-left:1px solid #111; border-top:1px solid #111; border-right:1px solid #333; border-bottom:1px solid #333;
+}
+
+#panel li a {
+	color:#fff;
+	display:block;
+	padding:10px;
+    text-decoration: none;
+}
+
+#panel li a:hover {
+	color:#0000FF;
+}
+
+#panel li.animation {
+	-moz-transition: all 0.4s ease-in-out;
+	-moz-transform:translateX(0px);
+	-o-transition: all 0.4s ease-in-out;
+	-o-transform:translateX(0px);
+	-webkit-transition: all 0.4s ease-in-out;
+	-webkit-transform:translateX(0px);
+}
+
+#panel li.animation:hover {
+	-moz-transform:translateX(25px);
+	-o-transform:translateX(25px);
+	-webkit-transform:translateX(25px);
+
+}
+
+
+#contenu
+ {
+	-moz-box-shadow: 10px 10px 5px #888888; /* Box Shadow*/
+	box-shadow: 10px 10px 5px #888888;
+	position: absolute;
+	z-index: 1;
+	background-color: #719CBE;
+	width: 745px;
+	margin-left: 13%;
+	margin-right: 13%;
+	margin-top: 20px;
+	min-height: 460px;
+	opacity: 0,1;
+	border-radius: 15px;
+	border: dashed 4px #000000;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 20px;
+	left: 412px;
+	top: 394px;
+	height: 353px;
+	visibility: visible;
+	background-image: url(Website-Under-Construction-Sig-88439234-768x597.jpg);
+
+}
+#titresite 
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	position:absolute;
+	left:44px;
+	top:22px;
+	width:361px;
+	height:57px;
+	text-shadow: 10px 10px 15px #000000;
+	color:#FF0000;
+	padding-left:15px;
+	background-color: #719CBE;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	visibility: visible;
+    }	text-shadow:7px 7px 7px #333;
+	background-color: #FFFFFF;
+	overflow: visible;	

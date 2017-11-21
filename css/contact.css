@@ -1,0 +1,103 @@
+/* 
+    Document   : contact
+    Created on : 07-May-2012, 10:26:14
+    Author     : a_otaibi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*  --------------------------------------------------------------------
+                             (10) CONTACT PAGE
+    -------------------------------------------------------------------- */
+
+#contact_map {
+    text-align:center;
+    margin-bottom:30px;
+}
+
+#contact_form input, #contact_form textarea {
+    font-family:Arial;
+    font-size:12px;
+}
+
+#contact_form input[type="text"] {
+    color:#555;
+    height:16px;
+    padding:5px;
+    border:1px solid #ccc;
+    width:400px;
+    margin-bottom:5px;
+    background-color:#f5f5f5;
+}
+
+#contact_form input[type="submit"] {
+
+}
+
+#contact_form textarea {
+    color:#555;
+    height:80px;
+    padding:5px;
+    border:1px solid #ccc;
+    width:500px;
+    margin-bottom:5px;
+    background-color:#f5f5f5;
+    overflow: auto;
+}
+
+#contact_form label {
+    color:#333;
+    font-size:13px;
+    line-height:20px;
+    margin-top:10px;
+    padding:3px;
+    display:block;
+}
+
+#contact_form .error {
+    display:none;
+    padding-left:120px;
+    color:#c30;
+    font-size:12px;
+    line-height:16px;
+    float:right;
+}
+
+#name_error {
+    margin-right:210px;
+}
+
+#email_error {
+    margin-right:210px;
+}
+
+#message_error {
+    margin-right:110px;
+}
+
+#contact_submit {
+   margin-top:20px;
+   height:25px;
+}
+
+
+#contact_form #loader {
+    margin:8px 400px auto auto;
+    float:right;
+    display:none;
+}
+
+.orange,.warning {
+	color: #ff8d0c;
+}
+.warning {
+	display: block;
+}
+.yellow {
+	color: #ffd300;
+}
+.dn {
+	display: none;
+}
+
+
