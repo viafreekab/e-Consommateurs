@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Acceuil</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Slicebox - 3D Image Slider with Fallback" />
+        <meta name="keywords" content="jquery, css3, 3d, webkit, fallback, slider, css3, 3d transforms, slices, rotate, box, automatic" />
+		<meta name="author" content="Pedro Botelho for Codrops" />
+		<link rel="shortcut icon" href="images/favicon.ico"> 
+        
+		<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Volkhov:400italic,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript" src="js/modernizr.custom.13303.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+<!--
+body {
+	background-image: url(Website-Under-Construction-Sig-88439234-768x597.jpg);
+	background-repeat: repeat;
+}
+-->
+</style></head>
+	<body>
+	<script type="text/javascript">
+			$(function() {
+
+				$('#sb-slider').slicebox({
+					orientation			: 'h',
+					slicesCount			: 3,
+					disperseFactor		: 25,
+					sequentialRotation	: true,
+					sequentialFactor	: 140
+				});
+				
+				if( !Modernizr.csstransforms3d ) {
+					$('#sb-note').show();
+					
+					$('#sb-examples > li:gt(2)').remove();
+					
+					$('body').append(
+						$('script').attr( 'type', 'text/javascript' ).attr( 'src', 'js/jquery.easing.1.3.js' )
+					);
+				}	
+			});
+		  </script>
+</body>
+</html>	
